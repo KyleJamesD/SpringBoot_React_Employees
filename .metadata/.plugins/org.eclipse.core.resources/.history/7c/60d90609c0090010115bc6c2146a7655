@@ -1,0 +1,12 @@
+package com.employee.entity;
+
+@Entity
+
+@AllArgsConstructor
+@NoArgsConstructor
+@Data
+@Builder
+@Table(name = "employee", schema = "emp")
+public class Employee {
+
+}
